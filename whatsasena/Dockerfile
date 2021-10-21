@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Jokerser-x-Raashii/Zaramwol /root/WhatsAsenaDuplicated
+RUN git clonehttps://github.com/archanthkannoth/Android-kunjappan-ver-2.26 /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
